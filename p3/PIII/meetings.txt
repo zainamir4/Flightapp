@@ -1,0 +1,65 @@
+Planning Meeting 1 (2015-11-23)
+Current State of the Project
+	- Initial meeting no major work yet completed just a few layouts
+	Done at meeting: 
+	- Assigned responsibilities to individual members.
+	- Set planning meeting for Fri at 2:00pm.
+
+Tasks for this week (to be completed for Fri Nov 27):
+	- Impement upload flight information from Adminstrator (Zain).
+	- Implement the managers in the backend along that will allow for storing the databases. (Zain)
+	- Implement Client can search for Itineraries (Ian).
+	- Impleement upload Personal and billing info for client (Zain/Ian). 
+	- Implement Login page to match the Username and Password with the appropriate Client and Adminstrator using passwors.txt (Raphael/John).
+	- Implement sorting Itineraries by Cost and Travel time upon searched Itineraries (Ian).
+	- Implement Booking backend (Andy).
+
+Planning Meeting 2 (2015-11-27)
+Current State of the Project
+	-Done: Registration of Users manually, Upon registration signing in the user redirects to corresponding acctivity. Also adding Flights manually and searching for flights added to the database.
+	-Almost done: Uploading files and storing that information into the internal database file  
+
+Tasks for this week (to be completed for Fri Nov 27):
+	- Complete uploading the files which includes passwords.txt, client info and flight information. Upon upload, store the information into the database using the appropriate managers.(Zain)
+	- Upon search of Itineraries and flights show a list with option to sort them by cost and travel time.(Ian)
+	- Also upon search provide with the option to book them. (Andy)
+	- Any invalid entry of information should show a message that awares the user of the invalid entry. Basically all of the exceptions. (Raphael/John)
+
+Status Meeting 1 (2015-11-29)
+Zain: 
+	- Finished the implementation of upload files and saving it on the internal storage
+	- Made the managers public static so they are accessible everywhere
+	- Made sure the login is linked properly to the managers and can uplaod on every run of the project.
+	- Will be testing the entire project so everything is linked up properly
+Ian
+	- finsished the implementation of the of the list view for flights and Itineraries 
+  	- With the otpion to select radio buttons that sort by cost and by time.
+	-  Also made sure the Register is correctly implemented
+	- Added a Add flight feature that allows the admin to add a single flight to the database
+	- Also implemented a view client information activity 
+Raplh
+	- Still working on exceptions
+Andy 
+	- The backend for booking is compeleted but the front end is not 
+John
+	- Was handed the task of implementing edit client information
+
+Status/bug Meeting 2 (2015-12-02)
+
+Zain:
+	- Fixed the bug that prevented us from reading the first line
+	- Made the save button go back to the Admin Activity
+	- Updated a README.txt that lays the instructions of the app 
+Ian
+	- Fixed the checkstyle errors 
+	- Modified the search algorithm to fit the feature restrictions
+	- Will finish the booking Activity
+Andy: 
+	- Layed the foundation for the booking Activity 
+Raph:
+	- Made popup boxes for invalid entries
+John:
+	- Continued working Edit client information 
+
+
+
